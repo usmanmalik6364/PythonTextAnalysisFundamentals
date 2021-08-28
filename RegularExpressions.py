@@ -5,6 +5,8 @@
 # Non Digit => \D Example Match => ABC ; patterncode => ABV
 # Non Alphanumerical => \W; Example Match => *-+=) ; patterncode => \W\W\W\W\W
 # NonWhiteSpace => /S Example Match => Yoyo ; patterncode => \S\S\S\S
+
+
 # re is standard python library for working with regular expressions.
 import re
 text = "The phone number of the agent is 408-555-1234. Call soon!"
